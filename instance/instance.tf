@@ -111,3 +111,5 @@ resource "aws_lb" "example" {
 
   subnet_mapping {
     subnet_id = aws_subnet
+
+  }

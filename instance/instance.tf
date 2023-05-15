@@ -110,7 +110,7 @@ resource "aws_lb" "example" {
   security_groups    = [aws_security_group.lb.id]
 
   subnet_mapping {
-    subnet_id = aws_subnet.example-subnet.id
+    subnet_id = aws_subnet
 
   }
 } 
